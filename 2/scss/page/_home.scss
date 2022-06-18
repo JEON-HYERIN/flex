@@ -1,0 +1,50 @@
+body {
+  background: #ccc;
+}
+
+main {
+  margin: 10px 10px 10px 160px;
+  > div + div {
+    margin-top: 10px;
+  }
+  .full {
+    height: 200px;
+    background: #fff;
+  }
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: calc((100% - 10px) / 2);
+    height: 100px;
+    background: #f00;
+  }
+}
+
+.box5 {
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: calc(80% - 5px);
+    height: 100px;
+    background: #fff;
+    &:last-child {
+      width: calc(20% - 5px);
+    }
+  }
+}
+
+.box6 {
+  display: flex;
+  justify-content: space-between;
+  div {
+    height: 100px;
+    width: calc(30% - 5px);
+    background: #fff;
+    &:last-child {
+      width: calc(70% - 5px);
+    }
+  }
+}

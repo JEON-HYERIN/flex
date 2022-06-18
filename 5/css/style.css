@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; font: inherit; }
+
+body { line-height: 1; }
+
+ul { list-style: none; }
+
+a { text-decoration: none; color: inherit; }
+
+img { max-width: 100%; vertical-align: top; }
+
+header { height: 100px; background: #000; }
+
+.inner { width: 800px; margin: 0 auto; }
+
+main { margin-top: 10px; }
+
+.sc-visual { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc-visual div { width: calc((100% - 10px) / 2); height: 200px; background: #ff0; }
+
+.sc-visual .slide { position: relative; }
+
+.sc-visual .slide .btn { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 50px; height: 50px; background: #f00; }
+
+.sc-visual .slide .btn.prev { left: 10px; }
+
+.sc-visual .slide .btn.next { right: 10px; }
+
+.banner { height: 100px; background: #f00; margin: 10px 0; }
+
+.sc-box1 { background: #000; padding: 10px; }
+
+.sc-box1 .list { background: #fff; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc-box1 .list.list2 { padding-top: 0; }
+
+.sc-box1 .list div { width: calc(80% - 5px); height: 100px; background: #f00; }
+
+.sc-box1 .list div:last-child { width: calc(20% - 5px); }
+
+.sc-box2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; height: 50px; background: #f00; margin-top: 10px; padding: 10px; }
+
+.sc-box2 .navi .btn { float: left; width: 50px; height: 50px; border: 1px solid #000; background: #fff; }
+
+.sc-box2 .navi .btn.next { margin-left: -1px; }
+
+.sc-box3 { margin-top: 10px; }
+
+.sc-box3 ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc-box3 ul li { width: calc((100% - 30px) / 4); }
+
+.sc-box3 ul li:nth-child(n+5) { margin-top: 10px; }
+
+.sc-box3 ul li a { display: block; background: #000; padding: 10px; }
+
+.sc-box3 ul li a h3 { background: #fff; padding: 10px; margin: 10px 0; }
+
+.sc-box3 ul li a p { background: #fff; padding: 10px; }

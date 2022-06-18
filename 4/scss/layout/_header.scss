@@ -1,0 +1,46 @@
+header {
+  .logo-area {
+    position: relative;
+    background: #ccc;
+    height: 100px;
+    .logo {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 50px;
+      background: #f00;
+      a {
+        display: block;
+        height: 100%;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+    .sns {
+      float: left;
+    }
+    .login {
+      float: right;
+    }
+  }
+  .gnb-area {
+    background: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      background: #f00;
+      height: 50px;
+      li {
+        a {
+          display: block;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

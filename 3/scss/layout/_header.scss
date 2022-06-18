@@ -1,0 +1,24 @@
+header {
+  position: relative;
+  height: 100px;
+  background: #ccc;
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 50px;
+    background: #f00;
+    a {
+      display: block;
+      height: 100%;
+    }
+  }
+  .sns {
+    float: left;
+  }
+  .login {
+    float: right;
+  }
+}
